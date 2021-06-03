@@ -9,7 +9,7 @@ function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 function signosAleatorios() {
-  let signos = ["♦", "♥", "♠", "♣"];
+  let signos = ["♦", "♣", "♠", "♥"];
   let ram = getRndInteger(0, 3);
   return signos[ram];
 }
