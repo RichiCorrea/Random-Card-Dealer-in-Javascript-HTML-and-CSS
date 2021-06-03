@@ -1,1 +1,20 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.bgGreen {
+  background: #018335;
+}
+.card {
+  width: 300px;
+  height: 450px;
+  background: #fff;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.number {
+  font-size: 150px;
+}
+.textSize2 {
+  font-size: 80px;
+}
+.textRed {
+  color: red;
+}
